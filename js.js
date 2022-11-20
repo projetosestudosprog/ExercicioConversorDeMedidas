@@ -2,9 +2,6 @@ let botaoClicado = document.querySelector("button");
 let resultado = "";
 let textoPrincipal = document.querySelector("h1");
 
-
-
-
 botaoClicado.addEventListener("click", () => {
   let medida = prompt("Informe uma medida em metros");
   let unidade = prompt(
@@ -42,18 +39,12 @@ botaoClicado.addEventListener("click", () => {
       alert(resultado);
       break;
 
-    case "5":
+    case "6":
       resultado = `Resultado: ${medida} m = ${medida / 1000} km`;
       alert(resultado);
       break;
 
     default:
       alert("OPÇÃO INVÁLIDA!");
-        
-    
-    
-}
+  }
 });
-
-
-
